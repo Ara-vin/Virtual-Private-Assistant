@@ -5,7 +5,7 @@ import os
 import subprocess
 import time
 
-path = r'C:\Users\Aravind\Desktop\tarp\Code\Assistant\FINAL_DATABASE'
+path = r'<path to database>'
 images =[]
 Names =[]
 name=''
