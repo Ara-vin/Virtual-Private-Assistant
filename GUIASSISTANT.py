@@ -276,7 +276,7 @@ def main(text):
 
 			gen_otp = random.randint(1000, 9999)
 			client = Client("ACe771f3dd23d33960f6f01e7bbcec5723", "be4522e55440ef784e01234cfcfb56bb")
-			client.messages.create(to=["+916238700305"], from_="+15303225163", body=gen_otp)
+			client.messages.create(to=["<number>"], from_="+15303225163", body=gen_otp)
 
 			WAEMPOPUP("OTP", "OTP")
 			attachTOframe(rec_phoneno)
